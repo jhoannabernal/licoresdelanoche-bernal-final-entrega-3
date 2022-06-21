@@ -469,11 +469,12 @@ ul li p{
       width: 100%;
       display: grid;
       grid-template-columns: 45% 45%;
-      justify-content:center;    
+      justify-content:center;   
+      
   }
-
-
- 
+  .arepa{
+    width: 90%;
+  }
  
 }
 .boton-footer{
