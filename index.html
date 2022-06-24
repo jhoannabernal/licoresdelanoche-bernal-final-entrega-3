@@ -18,30 +18,7 @@
 
  
 <body> 
-    
-    <!-- <nav class="menu">
-        <ul>
-            <li class="boton-1">cervezas</li>
-            <ul class="sub-menu">
-                <li>poker</li>
-                <li>aguila</li>
-                <li>club colombia</li>
-                <li>budweiser</li>
-                <li>corona</li>
-                <li>heineken</li>
-                <li>stella artois</li>
-               </ul>
-
-            <li>licores</li>
-            <br><br>
-            <li>comidas rapidas</li>
-            <br><br>
-            <li>cigarrillos</li>
-            <br><br>
-            <li>snacks</li>
-        </ul> -->
-       
-   
+           
     <header>
         <input type="checkbox" name="hamburguesa" id="hamburguesa" class="hamburguesa">
         <div class="cabeza">
@@ -85,7 +62,7 @@
     </header>
     <img src="/img/bebidas.jpg" alt="bebidas" class="banner">
     
-    <div class="contenedor-principal">
+    <!-- <div class="contenedor-principal"> -->
         <h1 class="intro">LICORES LA NOCHE TE DA LA BIENVENIDA</h1>
         
    
@@ -105,7 +82,7 @@
             </label>
             <input type="email"name="mail"placeholder="completa tu mail">
         </div>
-
+    
 
         <div>
             <label class="text-white"for="edad">
@@ -122,6 +99,7 @@
                 <input type="reset"value=borrar>
             </div>
         </fieldset>
+    </form>
        <!--cambios de bootstrap--> 
             
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -145,58 +123,52 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </form>
+    
     <h1 class="text-center p-1 bg-dark">Cervezas</h1>  
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding: 0;">   
         <legend class="row">
-            <p class="col-5 text-white"> cerveza es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura</p>
-            <p class="col-7 text-white">se aromatiza a menudo con lúpulo, entre otras plantas, Es la bebida alcohólica más consumida del mundo, y una de las bebidas más consumidas, solo por detrás del agua, el té y el café,Cepas( Ale y Lager</p>
-        </legen>
-    </div>
-        <br><br><br>
-        <!-- <img src="img/cervezas.jpg" alt="cervezas"> -->
-        <br><br><br><br><br><br>
-        <h1 class="text-center p-2 bg-dark">Licores</h1>
-    <div class="container-fluid">  
-        <br>
-        <legend class="row">
-         <p class="col-6 text-white">El licor es una bebida alcohólica obtenida por maceración en aguardiente de hierbas o frutos, que a veces son endulzados con sacarosa, azúcar de uva, mosto o miel con una riqueza en azúcares superior a 100 gramos/litro.</p>
-         <p class="col-6 text-white">.text-whitebg-light ">El grado mínimo de un licor será de 15% vol, De manera más genérica, en ocasiones se emplea la palabra «licor» para referirse a las bebidas alcohólicas destiladas en general,Históricamente, los licores derivan de las hierbas medicinales, generalmente preparadas por monjes.</p>
-         </p>
+            <p class="col-6 text-white" style="padding: 0 0 0 25px"> cerveza es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura</p>
+            <p class="col-6 text-white">se aromatiza a menudo con lúpulo, entre otras plantas, Es la bebida alcohólica más consumida del mundo, y una de las bebidas más consumidas, solo por detrás del agua, el té y el café,Cepas( Ale y Lager</p>
         </legend>
-    </div>
-         <br><br><br>
-        <div class="licores"id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <!-- <img src="img/cervezas.jpg" alt="cervezas"> -->
+
+
+        <h1 class="text-center p-1 bg-dark">Licores</h1>
+        <!-- <div class="container-fluid">   -->
+            <br>
+            <legend class="row">
+             <p class="col-6 text-white" style="padding: 0 0 0 25px">El licor es una bebida alcohólica obtenida por maceración en aguardiente de hierbas o frutos, que a veces son endulzados con sacarosa, azúcar de uva, mosto o miel con una riqueza en azúcares superior a 100 gramos/litro.</p>
+             <p class="col-6 text-white">El grado mínimo de un licor será de 15% vol, De manera más genérica, en ocasiones se emplea la palabra «licor» para referirse a las bebidas alcohólicas destiladas en general,Históricamente, los licores derivan de las hierbas medicinales, generalmente preparadas por monjes.</p>
+             
+            </legend>
+        <!-- </div> -->
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                 <img src="img/istockphoto.jpg" class="d-block w-100" alt="...">
-                </div>
-              <div class="carousel-item">
-                 <img src="img/BANNER.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/istockphoto.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/BANNER.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                 <img src="img/DDFS_JackDanniel_.jpg" class="d-block w-100" alt="...">
+                <img src="img/DDFS_JackDanniel_.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button"        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
-               </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>         
-         <!-- <img src="img/licores.jfif" alt="licor"> -->
-         <div class="productos">   
-    
-    
-    </div>
-    <br><br><br><br><br><br><br><br><br><br>
-
+        </div>
+        <br>
 <a href="index.html">ir arriba</a>
-</div>
-<br><br><br><br>
+    </div>
+<!-- </div> -->
+<br>
 <footer>
     <div class="seccion-footer info">
         <div>
@@ -208,17 +180,18 @@
             <p> Dir: cra 4 # 39-48</p>
             <p> Horario de atención - 6pm  a 6am </p>
         </div>
-    
+
     </div>
     <div class="seccion-footer">
         <div>
             <h3> Metodos de pago</h3>
             <img src="/img/Metodos-pago.jpg" alt="metodos_pago">
         </div>
-    </div>                                 
-                
-
-</footer>
+    </div>
+                 
+    
+    <!-- <p class="derechos">todos los derechos reservados</p> -->
+ </footer> 
    
 <!-- JavaScript se usa para que se acepta algunos comportamientos  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

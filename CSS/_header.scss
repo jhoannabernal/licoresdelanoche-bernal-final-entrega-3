@@ -1,0 +1,158 @@
+header{
+    width: 100%;
+    position: fixed;
+    background: #ffffff;
+    display: inline-block;
+    z-index: 3;
+    font-size: 1rem;
+    .hamburguesa{
+        display:none;
+    }
+    .cabeza{
+        display: flex;
+        justify-content: space-between;
+        .ini{
+            width: 2rem;
+            height: 2rem;
+            margin:1em;
+        }
+        .cerrar{
+            display: none;
+            width: 28px;
+        }
+        .abrir{
+            width: 28px;
+        }
+    }
+    label{
+        display: inline-flex;
+    }
+}
+
+/* mediaqueri sección_header */  
+@media (min-width: $tablet){
+    header {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        .cabeza{
+            .logo-bd {     
+                width: 300px;
+                height: 40px;      
+                margin-top:50px;
+                /* margin-left: 10px; */
+                border-color:red;
+                border-radius: 80%;
+                  
+            }
+            .icon {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: $desktop){
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .cabeza{
+            .logo-bd {     
+                width: 200px;
+                height: 60px;      
+                margin-top: 6px;
+                /* margin-left: 10px; */           
+            }
+            .icon {
+                display: none;
+            }
+        }
+    }
+}  
+ 
+.menu {
+    position: absolute;
+    width: 100%;
+    background: black;
+    margin-left: -100%;
+    ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        li {
+            padding: 1em;
+        }
+        a{
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 1em;
+            text-decoration: none;
+            color: white;
+            &:active{
+                color: gray;
+                text-decoration: line-through;
+            }
+            &:hover{
+                color: $rojo_fuerte;
+                text-decoration: line-through;
+            }
+        }
+    }
+}
+  
+ /* mediaqueri comportamiento_menu */
+@media (min-width: $tablet){
+    .menu{
+        margin-left: 0px;
+        background: none;
+        display: flex;
+        justify-content: flex-end;
+        color: black;
+        ul{
+            flex-direction: row;
+            margin-right: 0px;
+            a{
+                color: $azul_oscuro;
+            }
+        }
+    }
+}
+
+@media (min-width: $desktop){
+    .menu {
+        margin-left: 0px;
+        background: none;
+        display: flex;
+        justify-content: flex-end;
+        color: black;
+        ul {
+            flex-direction: row;
+            margin-right: 0px;
+            a{
+                color: $azul_oscuro;
+            }
+        }
+      }   
+}
+nav{
+    float: right;
+}
+.img-carrito{
+    width: 50px;
+    height: 50px;    
+}
+//Comportamiento del logo del menú y logo "x", y movimiento del menú
+.hamburguesa:checked ~ .menu {
+    margin-left: 0;
+}
+  
+.hamburguesa:checked ~ * .cerrar {
+    display: inline-flex;
+}
+  
+.hamburguesa:checked ~ * .abrir {
+    display: none;
+}
+ 
