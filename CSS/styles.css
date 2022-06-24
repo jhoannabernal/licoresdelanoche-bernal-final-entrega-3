@@ -416,10 +416,12 @@ footer {
   display: grid;
   justify-content: center;
 }
+
 footer .info div {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 footer .boton-footer {
   background-color: rgb(2, 9, 57);
