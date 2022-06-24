@@ -1,0 +1,116 @@
+footer{
+    background-color: #8c4804;
+    width: 100%;
+    bottom: 0;
+    display: grid;
+    justify-content: center;
+    .info{
+        div{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+    .boton-footer{
+        background-color: rgb(2, 9, 57);
+        border:none;
+        color: #8c4804;
+        padding: 20px 30px;
+        width: 22%;
+        height: 100px;
+        display:inline-block;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    .seccion-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            padding: 10px;
+            padding-top: 30px;
+            font-size: 2em; 
+            color: rgb(9, 9, 9);
+        }
+        p{
+            padding: 10px;
+            font-size: 1.5em;
+            color: black;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+//footer estilos tablet
+@media (min-width:  $tablet){
+    footer{
+        width: 100%;
+        display: grid;
+        grid-template-rows: 70% 30%;
+        .info{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            align-items: center;  
+        }
+        .seccion-footer {
+            text-align: center;
+            h3{
+                padding: 8px;
+                padding-top:30px;
+                font-size: 1.5em; 
+                color: rgb(9, 9, 9);
+            }  
+            p{
+                padding: 8px;
+                font-size: 1.2em;
+                color: black;
+            }
+            .boton-footer{
+                width: 120px;
+                height: 80px;
+                /* display:inline-block; */
+                font-size: 17px;
+                text-align: center;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+//footer estilos desktop
+@media (min-width: $desktop){
+    footer{
+        display: grid;
+        grid-template-columns: 66% 34%;
+        padding-bottom: 20px;
+        .info{
+            padding-top: 10px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            align-items: center;  
+        }
+        .section-footer{
+            h3{
+                padding: 20px;
+                padding-top:30px;
+                font-size: 1.8em; 
+                color: rgb(9, 9, 9);
+            }
+            p{
+                padding: 18px;
+                font-size: 1.3em;
+                color: black;
+            }
+        }
+        .boton-footer{
+            width: 190px;
+            height: 80px;
+              /* display:inline-block; */
+            font-size: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }  
+    }
+}
