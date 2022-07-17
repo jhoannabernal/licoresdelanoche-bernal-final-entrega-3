@@ -1,0 +1,63 @@
+@mixin estilo {
+    width: 100%;
+    position: fixed;
+    background: #ffffff;
+    display: inline-block;
+    z-index: 3;
+    font-size: 1rem; 
+  }
+  .estilo{
+      @include estilo;
+  }
+  //  {
+  //   box-sizing: border-box;
+  //   @include estilo;
+  // }
+  
+  html, body {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  h4 {
+    color: rgb(15, 15, 15);
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  header {
+    width: 100%;
+    position: fixed;
+    background: #ffffff;
+    display: inline-block;
+    z-index: 3;
+    font-size: 1rem;
+  }
+  header .hamburguesa {
+    display: none;
+  }
+  header .cabeza {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .cabeza .ini {
+    width: 2rem;
+    height: 2rem;
+    margin: 1em;
+  }
+  header .cabeza .cerrar {
+    display: none;
+    width: 28px;
+  }
+  header .cabeza .abrir {
+    width: 28px;
+  }
+  header label {
+    display: inline-flex;
+  }

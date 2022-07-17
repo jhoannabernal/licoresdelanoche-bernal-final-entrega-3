@@ -1,0 +1,69 @@
+Removing previous FileZilla Server installation
+Copy to C:\Users\USER\AppData\Local\Temp\nsy140E.tmp
+Execute: "C:\Users\USER\AppData\Local\Temp\nsy140E.tmp\Uninstall.exe" /quiet _?=C:\Program Files\FileZilla Server
+Output folder: E:\Proyect\licoresdelanoche-bernal final entrega 2
+Created uninstaller: E:\Proyect\licoresdelanoche-bernal final entrega 2\Uninstall.exe
+Output folder: E:\Proyect\licoresdelanoche-bernal final entrega 2
+Extract: libfilezilla-25.dll
+Extract: libgcc_s_seh-1.dll
+Extract: libgmp-10.dll
+Extract: libgnutls-30.dll
+Extract: libhogweed-6.dll
+Extract: libnettle-8.dll
+Extract: libstdc++-6.dll
+Extract: COPYING
+Extract: NEWS
+Output folder: E:\Proyect\licoresdelanoche-bernal final entrega 2
+Extract: filezilla-server-config-converter.exe
+Extract: filezilla-server-crypt.exe
+Extract: filezilla-server-impersonator.exe
+Extract: filezilla-server.exe
+Output folder: E:\Proyect\licoresdelanoche-bernal final entrega 2
+Extract: filezilla-server-gui.exe
+Extract: libpng16-16.dll
+Extract: wxbase30u_gcc_custom.dll
+Extract: wxmsw30u_adv_gcc_custom.dll
+Extract: wxmsw30u_core_gcc_custom.dll
+Extract: zlib1.dll
+Create folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Uninstall FileZilla Server.lnk
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Administer FileZilla Server.lnk
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Start FileZilla Server.lnk
+Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FileZilla Server\Stop FileZilla Server.lnk
+Create folder: C:\Users\Public\Desktop
+Create shortcut: C:\Users\Public\Desktop\Administer FileZilla Server.lnk
+Create shortcut: C:\Users\Public\Desktop\Start FileZilla Server.lnk
+Create shortcut: C:\Users\Public\Desktop\Stop FileZilla Server.lnk
+[SC] CreateService CORRECTO
+
+NOMBRE_SERVICIO: filezilla-server 
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 2  START_PENDING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        C‡D_SALIDA_WIN32   : 0  (0x0)
+        C‡D_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x1
+        INDICACI‡N_INICIO  : 0xbb8
+        PID                : 4908
+        MARCAS         : 
+CheckConfigVersion: got [ok
+]
+Delete file: C:\Users\USER\AppData\Local\Temp\nsvE0F0.tmp
+Crypt output: [--admin.password@index=1 --admin.password.hash=aOJyjL0EjxdCCS76FtaQu4cPSdd3OJcYm4IJm5ehTdE --admin.password.salt=fpXsvJd4HIXyEEuEC0RKq+J0eMQ2gPFfJLP64bh3Otw --admin.password.iterations=100000]
+Create folder: E:\Proyect\licoresdelanoche-bernal final entrega 2\Logs
+
+NOMBRE_SERVICIO: filezilla-server 
+        TIPO               : 10  WIN32_OWN_PROCESS  
+        ESTADO             : 2  START_PENDING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        C‡D_SALIDA_WIN32   : 0  (0x0)
+        C‡D_SALIDA_SERVICIO: 0  (0x0)
+        PUNTO_COMPROB.     : 0x0
+        INDICACI‡N_INICIO  : 0x7d0
+        PID                : 6132
+        MARCAS         : 
+=====================================
+Take note of the FileZilla Server Administration Interface TLS fingerprints:
+SHA256 certificate fingerprint: b5:68:76:89:6f:f3:7e:e6:62:4d:b0:d6:3e:a1:50:d7:9e:d9:a1:4d:44:96:fc:57:b4:5a:5d:bb:fd:50:3c:e2
+
+=====================================
