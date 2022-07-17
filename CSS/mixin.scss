@@ -9,11 +9,6 @@
   .estilo{
       @include estilo;
   }
-  //  {
-  //   box-sizing: border-box;
-  //   @include estilo;
-  // }
-  
   html, body {
     overflow-x: hidden;
     font-size: 16px;
