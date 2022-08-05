@@ -17,7 +17,7 @@ h4 {
 }
 
 h1 {
-  color: white;
+  color: rgb(210, 97, 36);
 }
 
 header {
@@ -173,7 +173,7 @@ nav {
 .banner {
   width: 100%;
   object-fit: cover;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 body {
@@ -389,7 +389,6 @@ body h2 {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(8, 11, 176, 0.552);
     overflow: hidden;
-    /* margin: 20px; */
     text-align: center;
     transition: all 0.25s;
     border-style: solid;
@@ -511,3 +510,4 @@ footer .seccion-footer img {
   }
 }
 
+/*# sourceMappingURL=styles.css.map */
