@@ -40,7 +40,6 @@ header{
                 width: 300px;
                 height: 40px;      
                 margin-top:50px;
-                /* margin-left: 10px; */
                 border-color:red;
                 border-radius: 80%;
                   
@@ -61,8 +60,7 @@ header{
             .logo-bd {     
                 width: 200px;
                 height: 60px;      
-                margin-top: 6px;
-                /* margin-left: 10px; */           
+                margin-top: 6px;           
             }
             .icon {
                 display: none;
@@ -89,7 +87,8 @@ header{
             font-family: 'IBM Plex Mono', monospace;
             font-size: 1em;
             text-decoration: none;
-            color: white;
+            color: rgb(208, 65, 65);
+            text-overflow:random($limit: 1);
             &:active{
                 color: gray;
                 text-decoration: line-through;

@@ -1,0 +1,11 @@
+@import "./variables";
+@mixin cover-img{
+  width: 100%;
+  object-fit:cover;
+}
+@mixin media-tablet{
+  @media (min-width:$tablet){
+    @content 
+  }
+  
+}

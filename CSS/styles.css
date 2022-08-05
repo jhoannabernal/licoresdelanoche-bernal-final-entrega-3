@@ -62,7 +62,6 @@ header label {
     width: 300px;
     height: 40px;
     margin-top: 50px;
-    /* margin-left: 10px; */
     border-color: red;
     border-radius: 80%;
   }
@@ -80,7 +79,6 @@ header label {
     width: 200px;
     height: 60px;
     margin-top: 6px;
-    /* margin-left: 10px; */
   }
   header .cabeza .icon {
     display: none;
@@ -106,7 +104,8 @@ header label {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1em;
   text-decoration: none;
-  color: white;
+  color: rgb(208, 65, 65);
+  text-overflow: 1;
 }
 .menu ul a:active {
   color: gray;
@@ -198,12 +197,6 @@ body h2 {
   justify-content: center;
   grid-template-columns: 85%;
   gap: 20px;
-  /* max-width: 1200px; */
-  /* height: 430px; */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto; */
 }
 .container .card {
   width: 100%;
@@ -211,7 +204,6 @@ body h2 {
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(8, 11, 176, 0.552);
   overflow: hidden;
-  /* margin: 20px; */
   text-align: center;
   transition: all 0.25s;
   background-color: white;
@@ -241,11 +233,15 @@ body h2 {
   color: black;
 }
 
+.title-comidas {
+  margin-top: 110px;
+}
+
 .comidas {
   width: 100%;
   display: grid;
-  justify-content: center;
-  grid-template-columns: 90%;
+  grid-template-columns: 100%;
+  column-gap: 10px;
 }
 .comidas .imagen-arepa {
   width: 100%;
@@ -258,7 +254,7 @@ body h2 {
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(8, 11, 176, 0.552);
   overflow: hidden;
-  /* margin: 20px; */
+  margin: 20px;
   text-align: center;
   transition: all 0.25s;
   border-style: solid;
@@ -275,7 +271,7 @@ body h2 {
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(8, 11, 176, 0.552);
   overflow: hidden;
-  /* margin: 20px; */
+  margin: 20px;
   text-align: center;
   transition: all 0.25s;
   background-color: white;
@@ -299,7 +295,6 @@ body h2 {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(8, 11, 176, 0.552);
     overflow: hidden;
-    /* margin: 20px; */
     text-align: center;
     transition: all 0.25s;
   }
@@ -337,12 +332,11 @@ body h2 {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(8, 11, 176, 0.552);
     overflow: hidden;
-    /* margin: 20px; */
     text-align: center;
     transition: all 0.25s;
     border-style: solid;
   }
-  .imagen-arepa .menu-arepas {
+  .menu-arepas {
     width: 100%;
     display: grid;
     grid-template-columns: 45% 45%;
@@ -355,7 +349,6 @@ body h2 {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
-    gap: 20px;
   }
   .container .card {
     width: 100%;
@@ -363,7 +356,6 @@ body h2 {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(8, 11, 176, 0.552);
     overflow: hidden;
-    /* margin: 20px; */
     text-align: center;
     transition: all 0.25s;
   }
@@ -404,9 +396,11 @@ body h2 {
   }
   .comidas .menu-arepas {
     width: 100%;
+    margin-top: 90px;
     display: grid;
     grid-template-columns: 45% 45%;
     justify-content: center;
+    column-gap: 2px;
   }
 }
 footer {
@@ -427,8 +421,7 @@ footer .boton-footer {
   background-color: rgb(2, 9, 57);
   border: none;
   color: #8c4804;
-  padding: 20px 30px;
-  width: 22%;
+  width: 6rem;
   height: 100px;
   display: inline-block;
   font-size: 17px;
@@ -483,7 +476,6 @@ footer .seccion-footer img {
   footer .seccion-footer .boton-footer {
     width: 120px;
     height: 80px;
-    /* display:inline-block; */
     font-size: 17px;
     text-align: center;
     border-radius: 8px;
@@ -515,11 +507,9 @@ footer .seccion-footer img {
   footer .boton-footer {
     width: 190px;
     height: 80px;
-    /* display:inline-block; */
     font-size: 20px;
     text-align: center;
     border-radius: 8px;
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
